@@ -61,7 +61,7 @@ export default function Lesson(props: LessonProps) {
                 <strong
                     className={`  ${
                         isActiveLesson
-                            ? "text-white"
+                            ? "text-white mt-5 block"
                             : "text-gray-200 mt-5 block"
                     }`}
                 >
