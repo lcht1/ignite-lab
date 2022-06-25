@@ -59,7 +59,7 @@ export default function Lesson(props: LessonProps) {
                 </header>
 
                 <strong
-                    className={` ${
+                    className={`  ${
                         isActiveLesson
                             ? "text-white"
                             : "text-gray-200 mt-5 block"
