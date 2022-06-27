@@ -5,6 +5,7 @@ import {
     CaretRight,
     DiscordLogo,
     FileArrowDown,
+    Image,
     Lightning,
 } from "phosphor-react";
 
@@ -99,7 +100,7 @@ export default function Video(props: VideoProps) {
                     <div className="flex flex-col gap-4 medium:w-full">
                         <a
                             href=""
-                            className="p-4 text-small bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors"
+                            className="p-4 text-small bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors small:scretch-items"
                         >
                             <DiscordLogo size={24} />
                             Comunidade do Discord
@@ -120,7 +121,7 @@ export default function Video(props: VideoProps) {
                         href=""
                         className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors"
                     >
-                        <div className="bg-green-700 h-full p-6 flex items-center">
+                        <div className="bg-green-700  p-6 flex items-center">
                             <FileArrowDown size={48} />
                         </div>
 
@@ -143,8 +144,8 @@ export default function Video(props: VideoProps) {
                         href=""
                         className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors"
                     >
-                        <div className="bg-green-700 h-full p-6 flex items-center">
-                            <FileArrowDown size={48} />
+                        <div className="bg-green-700 p-6 flex items-center ">
+                            <Image size={48} />
                         </div>
 
                         <div className="py-6 leading-relaxed">
