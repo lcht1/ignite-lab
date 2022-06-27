@@ -20,7 +20,7 @@ export default function Header() {
                         <Logo />
                     </Link>
                     <img
-                        src={burguerOpen ? burguerIcon : closeIcon}
+                        src={burguerOpen ? closeIcon : burguerIcon}
                         className="hidden small:block "
                         onClick={() => {
                             handleBurguer();
