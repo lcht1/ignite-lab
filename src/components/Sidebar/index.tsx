@@ -22,11 +22,13 @@ interface getLessonsQueryResponse {
         lessonType: "live" | "class";
     }[];
 }
-export default function Sidebar() {
+export default function Sidebar({ width, height }: any) {
     const { data } = useQuery<getLessonsQueryResponse>(GET_LESSONS_QUERY);
 
     return (
-        <aside className="w-[348px] bg-gray-700 p-6 border-l border-gray-600">
+        <aside
+            className={`w-[348px] bg-gray-700 p-6 border-l border-gray-600 small:w-screen h-screen`}
+        >
             <span className="font-bold text-2xl pb-6 mb-6 border-b border-gray- block">
                 Cronograma das aulas
             </span>

@@ -36,15 +36,24 @@ export function Subscribe() {
         navigate("/event");
     }
     return (
-        <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
-            <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
-                <div className="max-w-[640px]">
+        <div
+            className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center 
+        "
+        >
+            <div
+                className="w-full max-w-[1000px] flex items-center justify-between mt-20 mx-auto gap-10
+            medium:max-w-[700px]
+            small:flex-col small:mt-0 small:gap-0
+            
+            "
+            >
+                <div className="max-w-[640px] small:p-8 flex flex-col justify-items text-center">
                     <Logo />
                     <h1 className="mt-8 text-[2.5rem] leading-tight ">
                         Construa uma{" "}
                         <strong className="text-blue-500">
                             {" "}
-                            aplicação completa{" "}
+                            aplicação completa
                         </strong>
                         , do zero, com{" "}
                         <strong className="text-blue-500">React</strong>
@@ -57,7 +66,7 @@ export function Subscribe() {
                     </p>
                 </div>
 
-                <div className="p-8 bg-gray-700 border border-gray-500 rounded">
+                <div className="p-8 bg-gray-700 border border-gray-500 rounded small: w-full mt-8">
                     <strong className="text-2sl mb-6 block">
                         Inscreva-se gratuitamente
                     </strong>
